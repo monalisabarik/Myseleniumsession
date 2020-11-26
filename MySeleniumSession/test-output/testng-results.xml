@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28064" started-at="2020-11-25T14:53:51 IST" finished-at="2020-11-25T14:54:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28064" started-at="2020-11-25T14:53:51 IST" finished-at="2020-11-25T14:54:19 IST">
+      <class name="ApachePOI.DataProviderTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="setup" is-config="true" duration-ms="6423" started-at="2020-11-25T14:53:51 IST" finished-at="2020-11-25T14:53:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="loginTest" duration-ms="14435" started-at="2020-11-25T14:53:58 IST" data-provider="LoginData" finished-at="2020-11-25T14:54:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="loginTest" duration-ms="3612" started-at="2020-11-25T14:54:13 IST" data-provider="LoginData" finished-at="2020-11-25T14:54:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="loginTest" duration-ms="1148" started-at="2020-11-25T14:54:16 IST" data-provider="LoginData" finished-at="2020-11-25T14:54:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="loginTest" duration-ms="1181" started-at="2020-11-25T14:54:17 IST" data-provider="LoginData" finished-at="2020-11-25T14:54:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ApachePOI.DataProviderTestNG@2bbf4b8b]" name="tearDown" is-config="true" duration-ms="156" started-at="2020-11-25T14:54:19 IST" finished-at="2020-11-25T14:54:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ApachePOI.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
